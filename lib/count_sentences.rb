@@ -20,5 +20,5 @@ class String
     count += 1 
     break
   end
-  
+end 
     
