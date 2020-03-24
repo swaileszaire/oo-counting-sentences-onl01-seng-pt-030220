@@ -22,7 +22,7 @@ class String
   
   def count_sentences
     self.split(".", "?", "!").uniq 
-    break
+    break.count
   end
 end
 
