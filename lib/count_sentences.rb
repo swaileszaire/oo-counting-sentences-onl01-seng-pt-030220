@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-    array = []
     self.split(".", "?", "!").uniq 
     count = 0 
     count += 1 
