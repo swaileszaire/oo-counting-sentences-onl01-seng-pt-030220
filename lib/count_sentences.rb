@@ -19,7 +19,7 @@ class String
     count = 0 
     count += 1 
       self.split(".", "?", "!").uniq 
-    break if count < 10
+    break
   end
   
     
