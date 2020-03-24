@@ -22,7 +22,7 @@ class String
   end  
   
   def count_sentences
-    self.split(".", "?", "!").map do |x|
+    self.split(".", "?", "!").reject {|x| x.empty?}.size
   end
 end
 
