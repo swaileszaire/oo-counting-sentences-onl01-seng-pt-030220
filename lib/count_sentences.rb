@@ -18,7 +18,7 @@ class String
     array = []
     count = 0 
     count += 1 
-      self.split(".", "?", "!").uniq 
+    self.split(".", "?", "!").uniq 
     break
   end
   
