@@ -15,14 +15,15 @@ class String
   end
 
   def count 
+    a = [] 
     count = 0 
     count += 1 
     break 
   end  
   
   def count_sentences
-    self.split(".", "?", "!").uniq 
-    break.count
+    self.split(".", "?", "!")
+    a.uniq 
   end
 end
 
